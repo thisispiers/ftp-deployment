@@ -456,8 +456,8 @@ class Deployer
 		int $count,
 		int $total,
 		string $path,
-		float $percent = null,
-		string $color = null,
+		?float $percent = null,
+		?string $color = null,
 	): void
 	{
 		$len = strlen((string) $total);
